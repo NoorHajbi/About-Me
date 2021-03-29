@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imgs/backimg.jpg) no-repeat;
+    background-size: cover;
+    color: rgba(78, 76, 74, 0.76);
+   
+}
+.wrapper{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+}
+
+h1{
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 65px;
+    margin: 20px;
+}
+h3{
+    letter-spacing: 1px;
+    font-weight: 1;
+    margin-bottom: 25px;
+}
+.personal-img{
+    border-radius: 50%;
+    transition: .9s;
+}
+.personal-img:hover{
+    transform: scale(1.1);
+}
+p{
+    line-height: 25px;
+    text-align: justify; 
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+}
