@@ -1,4 +1,4 @@
-//'use strict';
+'use strict';
 let username = prompt('What is your name?');
 alert('Welcome '+username+' to \'About Me\' Quiz 😁\n\nYou can answer by (Y/N)\nOr (Yes/No)');
 /****** 1 ******/
