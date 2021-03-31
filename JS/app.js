@@ -49,7 +49,7 @@ alert('Your score after this question: '+score+'\nResult: '+ result);
 q2();
 
 /****** 3 ******/
-
+function q3(){
 let coffee =prompt(result +'\n\nQ3. Espresso(Y) VS Latte(N) ☕ ');
 switch (coffee.toUpperCase()){
 case 'Y':
@@ -67,8 +67,10 @@ default:
 }
 console.log('Q3: ',coffee,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
+}
+q3();
 /****** 4 ******/
-
+function q4(){
 let free =prompt(result +'\n\nQ4. In my free time, i sleep😴. \n(Y/N) ');
 switch (free.toUpperCase()){
 case 'Y':
@@ -86,6 +88,11 @@ default:
 }
 console.log('Q4: ',free,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
+
+}
+
+q4();
+
 /****** 5 ******/
 
 let color =prompt(result +'\n\nQ5. Light blue is my favorite color.🤔');
