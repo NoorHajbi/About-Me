@@ -5,7 +5,14 @@
 ### - The game contained of 5 Y/N questions and 2 guessing questions.
 ### - After answering each question you will see the response for your answer and a score you gained until reaching to your final score.
 ### - While you got a score, a web page will be loaded and contains a bio about myself and top 10 movies that i've ever see.
+--------------------------------------------------------------------------------
 
+Noor Navigator on: [Noorhajbi](https://github.com/NoorHajbi/About-Me.git)
+Rujeena  Driver on: [Rujeena](https://github.com/rujeenaal-zyoud/About-Me-1)
+
+
+**The driver rujeena with navigator noor added 7 function for each quesion.**
+-------------------------------------------------------------------------
 ## Author: Noor Hajbi  
 ## Resources: 
 ## Lab02 submission answers:  
