@@ -94,7 +94,7 @@ alert('Your score after this question: '+score+'\nResult: '+ result);
 q4();
 
 /****** 5 ******/
-
+function q5(){
 let color =prompt(result +'\n\nQ5. Light blue is my favorite color.🤔');
 switch (color.toLowerCase()){
 case 'y':
@@ -112,6 +112,8 @@ default:
 }
 console.log('Q5: ',color,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
+}
+q5();
 
 /****** 6 ******/
 
