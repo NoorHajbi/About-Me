@@ -1,7 +1,10 @@
 'use strict';
+
 let username = prompt('What is your name?');
 alert('Welcome '+username+' to \'About Me\' Quiz 😁\n\nYou can answer by (Y/N)\nOr (Yes/No)');
 /****** 1 ******/
+
+function q1(){
 let score = 0;
 let result = 'Correct!👍';
 
@@ -19,8 +22,11 @@ default:
   result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
 }
 console.log('Q1: ',myName,' Result: ', result);
-alert('Your score after this question: '+score+'\nResult: '+ result);
+alert('Your score after this question: '+score+'\nResult: '+ result); }
+q1();
 /****** 2 ******/
+
+function q2(){
 
 let year =prompt(result +'\n\nQ2. Was I born in 1997🤔?');
 year = year.toLowerCase();
@@ -37,8 +43,13 @@ else
   result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
 console.log('Q2: ',year,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
-/****** 3 ******/
 
+}
+
+q2();
+
+/****** 3 ******/
+function q3(){
 let coffee =prompt(result +'\n\nQ3. Espresso(Y) VS Latte(N) ☕ ');
 switch (coffee.toUpperCase()){
 case 'Y':
@@ -56,8 +67,10 @@ default:
 }
 console.log('Q3: ',coffee,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
+}
+q3();
 /****** 4 ******/
-
+function q4(){
 let free =prompt(result +'\n\nQ4. In my free time, i sleep😴. \n(Y/N) ');
 switch (free.toUpperCase()){
 case 'Y':
@@ -75,8 +88,13 @@ default:
 }
 console.log('Q4: ',free,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
-/****** 5 ******/
 
+}
+
+q4();
+
+/****** 5 ******/
+function q5(){
 let color =prompt(result +'\n\nQ5. Light blue is my favorite color.🤔');
 switch (color.toLowerCase()){
 case 'y':
@@ -94,9 +112,11 @@ default:
 }
 console.log('Q5: ',color,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
+}
+q5();
 
 /****** 6 ******/
-
+function q6(){
 let num;
 for(let i=0; i<6 ; i++)
 {
@@ -131,7 +151,12 @@ if(num !==3){
 
 alert('Your score after this question: '+score);
 console.log('Q6: ',num);
+}
+q6();
+
+
 /****** 7 ******/
+function q7(){
 let guess = ' ';
 let drinks = ['Water', 'Nescafe','Coffee'];
 for(let i=0; i<6;)
@@ -169,6 +194,10 @@ for(let i=0; i<6;)
 }
 
 alert('The possible answers = '+ drinks);
+
+
 console.log('Q7: ',guess);
+}
+q7();
 console.log('Your Score is: ',score,'/7');
 alert(username+'\'s Final Score is: '+score+'/7');
