@@ -3,6 +3,8 @@
 let username = prompt('What is your name?');
 alert('Welcome '+username+' to \'About Me\' Quiz 😁\n\nYou can answer by (Y/N)\nOr (Yes/No)');
 /****** 1 ******/
+
+function q1(){
 let score = 0;
 let result = 'Correct!👍';
 
@@ -20,7 +22,8 @@ default:
   result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
 }
 console.log('Q1: ',myName,' Result: ', result);
-alert('Your score after this question: '+score+'\nResult: '+ result);
+alert('Your score after this question: '+score+'\nResult: '+ result); }
+q1();
 /****** 2 ******/
 
 function q2(){
