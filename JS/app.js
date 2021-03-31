@@ -116,7 +116,7 @@ alert('Your score after this question: '+score+'\nResult: '+ result);
 q5();
 
 /****** 6 ******/
-
+function q6(){
 let num;
 for(let i=0; i<6 ; i++)
 {
@@ -151,7 +151,12 @@ if(num !==3){
 
 alert('Your score after this question: '+score);
 console.log('Q6: ',num);
+}
+q6();
+
+
 /****** 7 ******/
+function q7(){
 let guess = ' ';
 let drinks = ['Water', 'Nescafe','Coffee'];
 for(let i=0; i<6;)
@@ -189,6 +194,10 @@ for(let i=0; i<6;)
 }
 
 alert('The possible answers = '+ drinks);
+
+
 console.log('Q7: ',guess);
+}
+q7();
 console.log('Your Score is: ',score,'/7');
 alert(username+'\'s Final Score is: '+score+'/7');
