@@ -1,4 +1,5 @@
 'use strict';
+
 let username = prompt('What is your name?');
 alert('Welcome '+username+' to \'About Me\' Quiz 😁\n\nYou can answer by (Y/N)\nOr (Yes/No)');
 /****** 1 ******/
@@ -22,6 +23,8 @@ console.log('Q1: ',myName,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
 /****** 2 ******/
 
+function q2(){
+
 let year =prompt(result +'\n\nQ2. Was I born in 1997🤔?');
 year = year.toLowerCase();
 if (year === 'n' || year === 'no')
@@ -37,6 +40,11 @@ else
   result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
 console.log('Q2: ',year,' Result: ', result);
 alert('Your score after this question: '+score+'\nResult: '+ result);
+
+}
+
+q2();
+
 /****** 3 ******/
 
 let coffee =prompt(result +'\n\nQ3. Espresso(Y) VS Latte(N) ☕ ');
