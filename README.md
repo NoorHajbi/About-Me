@@ -1,4 +1,3 @@
-# Lab02
 # Project name : About-Me
 
 ### - In this web page, At first you will see question game.
