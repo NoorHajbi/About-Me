@@ -10,6 +10,8 @@
 
 ---
 ## Author: Noor Hajbi  
-## Resources: These resources helped me understand some of the elements before adding them
+## Resources: 
+- These resources helped me understand some of the elements before adding them.
+
 1. [W3School](https://www.w3schools.com/)
 2. "HTML & CSS: Design and build websites - Jon Duckett" Book
