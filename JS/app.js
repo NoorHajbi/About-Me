@@ -22,13 +22,12 @@ function q1(){
   default:
     result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
   }
-  console.log('Q1: ',myName,' Result: ', result);
   alert('Your score after this question: '+score+'\nResult: '+ result); }
 q1();
 /****** 2 ******/
 
 function q2(){
-  let year =prompt(result +'\n\nQ2. Was I born in 1997🤔?');
+  let year =prompt('Q2. Was I born in 1997🤔?');
   year = year.toLowerCase();
   if (year === 'n' || year === 'no')
   {
@@ -41,14 +40,13 @@ function q2(){
   }
   else
     result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
-  console.log('Q2: ',year,' Result: ', result);
   alert('Your score after this question: '+score+'\nResult: '+ result);
 }
 q2();
 
 /****** 3 ******/
 function q3(){
-  let coffee =prompt(result +'\n\nQ3. Espresso(Y) VS Latte(N) ☕ ');
+  let coffee =prompt('Q3. Espresso(Y) VS Latte(N) ☕ ');
   switch (coffee.toUpperCase()){
   case 'Y':
   case 'YES':
@@ -63,13 +61,12 @@ function q3(){
   default:
     result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
   }
-  console.log('Q3: ',coffee,' Result: ', result);
   alert('Your score after this question: '+score+'\nResult: '+ result);
 }
 q3();
 /****** 4 ******/
 function q4(){
-  let free =prompt(result +'\n\nQ4. In my free time, i sleep😴. \n(Y/N) ');
+  let free =prompt('Q4. In my free time, i sleep😴. \n(Y/N) ');
   switch (free.toUpperCase()){
   case 'Y':
   case 'YES':
@@ -84,7 +81,6 @@ function q4(){
   default:
     result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
   }
-  console.log('Q4: ',free,' Result: ', result);
   alert('Your score after this question: '+score+'\nResult: '+ result);
 }
 
@@ -92,7 +88,7 @@ q4();
 
 /****** 5 ******/
 function q5(){
-  let color =prompt(result +'\n\nQ5. Light blue is my favorite color.🤔');
+  let color =prompt('Q5. Light blue is my favorite color.🤔');
   switch (color.toLowerCase()){
   case 'y':
   case 'yes':
@@ -107,7 +103,6 @@ function q5(){
   default:
     result = 'You answerd wrong 😞, please type only (Y/N) OR (Yes/No)';
   }
-  console.log('Q5: ',color,' Result: ', result);
   alert('Your score after this question: '+score+'\nResult: '+ result);
 }
 q5();
@@ -147,7 +142,6 @@ function q6(){
   }
 
   alert('Your score after this question: '+score);
-  console.log('Q6: ',num);
 }
 q6();
 
@@ -155,10 +149,10 @@ q6();
 /****** 7 ******/
 function q7(){
   let guess = ' ';
-  let drinks = ['Google Chrome', 'Mozilla Firefox','Microsoft Edge','Opera', 'Brave Browser','Chromium','Vivaldi', 'Torch','Maxthon'];
+  let drinks = ['Google Chrome', 'Mozilla Firefox','Microsoft Edge','Safari','Opera', 'Brave Browser','Chromium','Vivaldi', 'Torch','Maxthon'];
   for(let i=0; i<6;)
   {
-    guess=prompt('Q7. Quess one of top 10 Web browsers');
+    guess=prompt('Q7. Quess one of top 10 Web browsers\nYou Have 6 attempts');
     let correct =0;
     for (let j = 0; j < drinks.length; j++) {
       if (drinks[j].toLowerCase() === guess.toLowerCase())
@@ -190,9 +184,7 @@ function q7(){
     alert('This is your ' + ++i +' Atempt.');
   }
 
-  alert('The possible answers = '+ drinks);
-  console.log('Q7: ',guess);
+  alert('The possible 10 answers are:\n\n'+ drinks.join('\n'));
 }
 q7();
-console.log('Your Score is: ',score,'/7');
 alert(username+'\'s Final Score is: '+score+'/7');

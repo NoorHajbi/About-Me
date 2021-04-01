@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
 body{
     margin: 0;
     padding: 0;
     color: rgba(78, 76, 74, 0.76);
+    font-family: 'New Tegomin', serif;
    
 }
 .wrapper{
@@ -10,7 +13,7 @@ body{
     margin-top: 30px;
     padding: 30px;
     padding-top: 10px;
-    width: 600px;
+    width: 620px;
     background: rgba(0, 0, 0, 0.096);
     color: aliceblue;
     border-radius: 10%;
@@ -46,11 +49,10 @@ h3{
 }
 
 .ordered{
-    /*margin: 30px auto 15px 30px ; /*top right bottom left*/
     margin: auto;
     margin-top: 30px;
     border-radius: 3%;
-    width: 305px;
+    width: 345px;
     background: rgba(255, 255, 255, 0.1);
     padding: 10px;
     box-sizing: border-box;
